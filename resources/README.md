@@ -1,0 +1,5 @@
+---
+list-resources: true
+---
+
+<ListResources/>
