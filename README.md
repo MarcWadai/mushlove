@@ -3,8 +3,8 @@ home: true
 heroImage: ./champ.png
 heroText: Discover the underworld of Mushroom
 tagline: A practical way to know more about mushrooms
-actionText: Join the community
-actionLink: /Cultivated/
+actionText: Join the community 🥰
+actionLink: https://discord.gg/xNJMBSV
 features:
 - title: Resources
   details: Get a list of resources all concerning mushrooms. From books to youtube videos

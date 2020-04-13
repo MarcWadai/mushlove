@@ -1,7 +1,8 @@
 ---
 title: Radical Mycology
 author: Peter McCoy
-date: 2018-07-28
+image: champi.png
+date: 2020-04-01
 description:
-    Kielbasa tenderloin boudin bacon cupim, pastrami strip steak rump picanha meatloaf venison meatball ribeye. Burgdoggen t-bone jowl venison biltong andouille. Turducken shankle tongue landjaeger drumstick, pancetta porchetta. Brisket ham turkey andouille picanha. Pancetta chuck shank ham.
+    One of my favorite mushroom book. Being much more recent and cover a wide variety of subject. It can get quite technicals at some points, but also lot of information concerning  their history and relationship with us.
 ---

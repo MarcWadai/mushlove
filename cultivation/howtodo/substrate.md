@@ -1,6 +1,6 @@
 ---
-title: Substrate
+title: Substrate and Spawn
 date: 2018-07-28
 description:
-    Kielbasa tenderloin boudin bacon cupim, pastrami strip steak rump picanha meatloaf venison 
+    They are food and growing media we will feed our dear mycelium, or in order for him to grow and expands his hyphae.  
 ---

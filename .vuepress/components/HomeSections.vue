@@ -8,9 +8,8 @@
       <img src="./champ.png" alt class="cloud cloud3" />
       <img src="./champ.png" alt class="cloud cloud4" />
       <img src="./champ.png" alt class="cloud cloud5" />
-    </div> -->
+    </div>-->
     <SectionInfo></SectionInfo>
-    <SectionNewsletter></SectionNewsletter>
   </div>
 </template>
 
@@ -24,53 +23,56 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-.home_section 
+.home_section {
   position: relative;
+  margin-bottom: 25px; 
   width: 100%;
   min-height: 300px;
 
-  .clouds
+  .clouds {
     position: absolute;
     height: 100%;
     top: 0;
     left: 0;
     right: 0;
 
-    .cloud
+    .cloud {
       bottom: 0;
       position: absolute;
       margin-left: -300px;
+    }
 
-
-    .cloud1
+    .cloud1 {
       animation: animateCloud 85s linear infinite;
-      transform: scale(.8);
+      transform: scale(0.8);
       bottom: 75%;
       animation-delay: 2s;
+    }
 
-
-    .cloud2
+    .cloud2 {
       animation: animateCloud 56s linear infinite;
-      transform: scale(.5);
+      transform: scale(0.5);
       bottom: 60%;
+    }
 
-
-    .cloud3
+    .cloud3 {
       animation: animateCloud 90s linear infinite;
-      transform: scale(.6);
+      transform: scale(0.6);
       bottom: 50%;
       animation-delay: 16s;
+    }
 
-
-    .cloud4
+    .cloud4 {
       animation: animateCloud 75s linear infinite;
       transform: scale(1);
       bottom: 25%;
+    }
 
-
-    .cloud5
+    .cloud5 {
       animation: animateCloud 110s linear infinite;
-      transform: scale(.4);
+      transform: scale(0.4);
       bottom: 0;
-
+    }
+  }
+}
 </style>

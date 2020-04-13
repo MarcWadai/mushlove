@@ -14,9 +14,11 @@
         </div>
       </div>
     </section>
-<hr/>
+    <hr />
     <section>
-      <h1><strong>Species</strong></h1>
+      <h1>
+        <strong>Species</strong>
+      </h1>
       <div class="container">
         <div v-for="specy in species">
           <router-link :to="specy.path">
