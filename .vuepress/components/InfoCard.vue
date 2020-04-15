@@ -2,14 +2,20 @@
 
 <template>
   <div class="card">
-    <h2 class="title">{{ title }}</h2>
-    <div class="body">{{ description }}</div>
+    <div class="title-container">
+      <img v-if="image" :src="$withBase(`/${image}`)" alt="champi" />
+      <h2 class="title">{{ title }}</h2>
+    </div>
+    <div class="body">
+      <!-- :style="{'background-image': `url('/${image}')`}"> -->
+      {{ description }}
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["title", "description"],
+  props: ["title", "description", "image"],
   computed: {}
 };
 </script>
@@ -25,8 +31,32 @@ export default {
   border-radius: 8px 8px;
   box-shadow: 0px 0px 5px $codeBgColor;
 
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .body {
-      color: $textColor !important;
+    color: $textColor !important;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 80px;
+    heigth: 80px;
+  }
+
+  .body:after {
+    content: '';
+    background: url('/champ.png');
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
   }
 }
 

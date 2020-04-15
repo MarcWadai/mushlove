@@ -9,9 +9,9 @@ features:
 - title: Resources
   details: Get a list of resources all concerning mushrooms. From books to youtube videos
 - title: Cultivation
-  details: Check out most of the informations to get started in mushroom cultivation
+  details: Check out informations to get started with mushroom
 - title: Blog
-  details: Post your articles about mushroom on the discord and share it with the community !
+  details: Post your articles about mushrooms on discord and share it with the community !
 footer: Copyright©2020 - MushLove
 
 home_sections: true

@@ -22,7 +22,7 @@
       <div class="container">
         <div v-for="specy in species">
           <router-link :to="specy.path">
-            <InfoCard :description="specy.frontmatter.description" :title="specy.frontmatter.title"></InfoCard>
+            <InfoCard :description="specy.frontmatter.description" :title="specy.frontmatter.title" :image="specy.frontmatter.image"></InfoCard>
           </router-link>
         </div>
       </div>
@@ -64,7 +64,8 @@ export default {
 <style scoped lang="stylus">
 .container {
   display: flex;
-  flex-direction: horizontal;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 strong {

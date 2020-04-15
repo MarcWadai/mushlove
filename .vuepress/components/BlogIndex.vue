@@ -35,7 +35,7 @@ export default {
   // border: 1px inset $codeBgColor
   border-radius: 8px 8px;
   box-shadow: 0px 0px 5px $codeBgColor;
-  padding: 25px;
+  padding: 18px;
   margin: 15px
 }
 

@@ -3,7 +3,7 @@
     <div v-for="book in books">
       <div class="line">
         <div class="line_img">
-          <img :src="$withBase('/champ.png')" alt="champi" />
+          <img :src="(book.frontmatter.image) ? $withBase(`/${book.frontmatter.image}`): $withBase('/champ.png')" alt="champi" />
         </div>
         <div class="line_text">
           <div class="line_title">

@@ -39,7 +39,7 @@
       <div class="stack-card">
         <div v-for="specy in species">
           <router-link :to="specy.path">
-            <InfoCard :description="specy.frontmatter.description" :title="specy.frontmatter.title"></InfoCard>
+            <InfoCard :description="specy.frontmatter.description" :title="specy.frontmatter.title" :image="specy.frontmatter.image"></InfoCard>
           </router-link>
         </div>
       </div>
@@ -53,7 +53,6 @@ import InfoCard from "./InfoCard";
 export default {
   computed: {
     species() {
-      console.log("this.$site", this.$site);
       const pages = this.$site.pages
         .filter(
           x =>
@@ -64,7 +63,7 @@ export default {
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
       //get only the three first document
-      return pages.length < 3 ? pages : pages.slice(0, 2);
+      return pages.length < 3 ? pages : pages.slice(0, 3);
     },
     howtos() {
       const pages = this.$site.pages
@@ -76,7 +75,7 @@ export default {
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
-      return pages.length < 3 ? pages : pages.slice(0, 2);
+      return pages.length < 3 ? pages : pages.slice(0, 3);
     },
     blogs() {
       const pages = this.$site.pages
@@ -88,7 +87,7 @@ export default {
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
-      return pages.length < 3 ? pages : pages.slice(0, 2);
+      return pages.length < 3 ? pages : pages.slice(0, 3);
     }
   }
 };
@@ -109,7 +108,7 @@ section {
     width: 100%;
 
     strong {
-      background-image: linear-gradient(180deg, transparent 65%, #FF9F1C 0);
+      background-image: linear-gradient(180deg, transparent 75%, #FF9F1C 0);
     }
   }
 
