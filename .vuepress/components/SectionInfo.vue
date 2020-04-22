@@ -127,6 +127,7 @@ section {
     flex: 3;
     display: flex;
     position: relative;
+    justify-content: center;
   }
 
   @media (max-width: $MQMobile) {
