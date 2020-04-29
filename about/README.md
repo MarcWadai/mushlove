@@ -8,4 +8,4 @@ Articles and cultivation cards are being made one by one, so stay tuned for more
 
 I would like through this website to help more and more people get interested in the limitless world of Fungi. Be sure to spread the spores around you <3
 
-If you are somewhere around Paris or in France, and wants to share more specific details about cultivation in France, don't hesitate to join the discord :D
+If you are somewhere around Paris or in France, and wants to share more specific details about cultivation in France, don't hesitate to join the discord or directly contact me at <friends@mushcommunity.org> :D

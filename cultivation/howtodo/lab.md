@@ -7,7 +7,7 @@ description:
 
 # Lab tips
 In order to grow a specific fungi of your choice, you need to provide him the best environment possible. The air that we breath is full of spores and bacteira that we can cannot see. Here are a somple list of some basic context to keep in mind.
-- The outide air contain much more indesirable spores than indoor. 
+- The outside air contain much more indesirable spores than indoor. 
 - Do not open or let rotten, molded mushroom in the same room room as your other mushroom.
 - Maintain a space with still air or clean air as much as possible
 - When working in your "lab", wear clean clothes and wash yourself beforehand. Your body is a moving propagator of spores and bacteria

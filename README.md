@@ -12,7 +12,7 @@ features:
   details: Check out informations to get started with mushroom
 - title: Blog
   details: Post your articles about mushrooms on discord and share it with the community !
-footer: Copyright©2020 - MushLove
+footer: Copyright©2020 - MushCommunity
 
 home_sections: true
 ---
