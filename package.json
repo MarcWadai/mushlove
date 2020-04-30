@@ -17,5 +17,7 @@
     "url": "https://github.com/MarcWadai/mushlove/issues"
   },
   "homepage": "https://github.com/MarcWadai/mushlove#readme",
-  "dependencies": {}
+  "dependencies": {
+    "vuepress": "^1.4.1"
+  }
 }
