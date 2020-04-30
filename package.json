@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "site:build": "vuepress build"
+    "site:build": "vuepress build site"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,5 @@
     "url": "https://github.com/MarcWadai/mushlove/issues"
   },
   "homepage": "https://github.com/MarcWadai/mushlove#readme",
-  "dependencies": {
-    "vuepress": "^1.4.1"
-  }
+  "dependencies": {}
 }
