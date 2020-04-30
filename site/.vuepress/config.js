@@ -1,5 +1,11 @@
+const title = "Mush Love";
+const description = "Join the mushroom community";
+const author = "Marcoucou";
+const ogprefix = 'og: http://ogp.me/ns#';
+const color = '#011627';
+
 module.exports = {
-    title: "Mush Love",
+    title,
     themeConfig: {
         search: false,
         nav: [
@@ -9,7 +15,20 @@ module.exports = {
             { text: 'Resources', link: '/resources/' },
             { text: 'About', link: '/about/' }
         ]
-    }
+    },
+    head: [
+        ['link', { rel: 'icon', href: `/favicon.png` }],
+        ['meta', { name: 'theme-color', content: color }],
+        ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
+        ['meta', { prefix: ogprefix, property: 'twitter:title', content: title }],
+        ['meta', { prefix: ogprefix, property: 'og:type', content: 'article' }],
+        ['meta', { prefix: ogprefix, property: 'og:url', content: 'https://mushcommunity.org' }],
+        ['meta', { prefix: ogprefix, property: 'og:description', content: description }],
+        ['meta', { prefix: ogprefix, property: 'og:image', content: 'https://mushcommunity.org/favicon.png' }],
+        ['meta', { prefix: ogprefix, property: 'og:article:author', content: author }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ]
     // locales: {
     //     '/': {
     //         // text for the language dropdown
