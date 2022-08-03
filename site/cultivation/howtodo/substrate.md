@@ -13,11 +13,11 @@ So what is the difference between spawn and substrate. Actually the line between
 However, the difference is in the job they try to achieve. Spawn are made of highly nutritional source for the mycelium run, during the incubation phase. Of course, you could also directly use the spawn to grow fruiting bodies by adding a casing layers, but it will be well less efficient and cost effective than using another substrate to expand the mycelium for fruiting, and more prone to contamination. Bulk substrate are used to expand the mycelium in an effective manner. Using less nutritive materials but more water retaining.
 
 ### Spawn
-For the spawn we use in general grains : Oats, Corn, Wheat, Rye. In which we will add gypsum, a compound that will make the grain less sticky between eaeech other, so easier to shake and make the mycelium propagate more harmonously.
+For the spawn we use in general grains : Oats, Corn, Wheat, Rye, Millet. In which we will add gypsum in order to change the physical texture of the spawn. This compound will make the grain less sticky between each other, so easier to shake and make the mycelium propagate more harmonously.
 
 ### Bulk Substrate
 Lot of combinaison of substrate can be made from mixes of differents sources. Usually the main common reasonning around those mixes are the same. The mixes needs to provide:
-- Some nutritions
+- Some nutrients
 - Adequate pH
 - Be easy to manipulate and less prone to contamination
 

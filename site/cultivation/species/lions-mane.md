@@ -3,28 +3,21 @@ title: Lion's mane
 date: 2020-04-18
 image: lions-mane.jpeg
 description:
-    Coming soon :D
-    # A mushroom that has the flavor and texture of crab lobster. Far from only be delicious, it has important nutriotional and medicinal value
+    A mushroom that has the flavor and texture of crab lobster. It also has important nutritional and medicinal value
 ---
-<!-- 
+
 # Lion's mane - Hericium Erinaceus
 
-### Introduction and nutritional value
-The mycelium is white and irregular With white spores 
+### Growing conditions
 
-### Spawn 
-
-### Outdoor cultivation
-#### Substrate
-
-### Indoor cultivation
-#### Substrate
-
-### Storage
+| Phase | Temperature       | Humidity | Duration | Light |
+|:--------|:-------------|-------------:|--------------:|-----------------:|
+| Mycelium growth   | Northern     |          750 |           875 |            1,000 |
+| India   | Northeastern |        7,200 |         9,250 |           11,300 |
+| Nepal   |              |           41 |            50 |               60 |
 
 
-Growing conditions:
-Phase 1: Mycelium growth
+
 Temperature: 21 - 27°C
 Humidity: 90 - 100%
 Duration: 10 - 14 days
@@ -47,4 +40,4 @@ Duration: 4 - 5 days
 CO2: 500 - 1,000 ppm
 Fresh air exchange: 5 - 8 per hour
 Light: 500 - 1,000 lux
-Cropping cycle: 2 crops, 14 days apart -->
+Cropping cycle: 2 crops, 14 days apart

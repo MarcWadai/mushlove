@@ -2,8 +2,6 @@
 
 <template>
 <section>
-
-
     I am a section newsletter
 
 </section>

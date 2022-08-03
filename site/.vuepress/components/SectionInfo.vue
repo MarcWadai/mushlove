@@ -9,7 +9,7 @@
         </h3>
       </div>
       <div class="stack-card">
-        <div v-for="(blog, index) in blogs" :class="`one-card-${index}`">
+        <div v-for="(blog, index) in blogs" v-bind:key="`one-card-${index}`">
           <router-link :to="blog.path">
             <InfoCard :description="blog.frontmatter.description" :title="blog.frontmatter.title"></InfoCard>
           </router-link>
@@ -23,7 +23,7 @@
         </h3>
       </div>
       <div class="stack-card">
-        <div v-for="(howto, index) in howtos" :class="`one-card-${index}`">
+        <div v-for="(howto, index) in howtos" v-bind:key="`one-card2-${index}`">
           <router-link :to="howto.path">
             <InfoCard :description="howto.frontmatter.description" :title="howto.frontmatter.title"></InfoCard>
           </router-link>
@@ -37,7 +37,7 @@
         </h3>
       </div>
       <div class="stack-card">
-        <div v-for="specy in species">
+        <div v-for="(specy, index) in species" v-bind:key="`one-card3-${index}`">
           <router-link :to="specy.path">
             <InfoCard :description="specy.frontmatter.description" :title="specy.frontmatter.title" :image="specy.frontmatter.image"></InfoCard>
           </router-link>
@@ -63,7 +63,7 @@ export default {
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
       //get only the three first document
-      return pages.length < 3 ? pages : pages.slice(0, 3);
+      return pages.length < 4 ? pages : pages.slice(0, 3);
     },
     howtos() {
       const pages = this.$site.pages
@@ -75,7 +75,7 @@ export default {
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
-      return pages.length < 3 ? pages : pages.slice(0, 3);
+      return pages.length < 4 ? pages : pages.slice(0, 3);
     },
     blogs() {
       const pages = this.$site.pages
@@ -87,7 +87,7 @@ export default {
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
-      return pages.length < 3 ? pages : pages.slice(0, 3);
+      return pages.length < 4 ? pages : pages.slice(0, 3);
     }
   }
 };

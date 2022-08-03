@@ -19,8 +19,8 @@ Colonization od, logs, mulch or bulk medi. If it is indoor cultivation, this is 
 
 4- Complete Colonization
 
-5- Iniationand Pinning
-Once the media is fully colonize, the initiation of pinning can be triggered by some environmental change (humidity, fresh air, light)
+5- Initiation of Pinning
+Once the media is fully colonize, the initiation of pinning can be triggered by some environmental change (temperature drop, humidity, fresh air, light)
 
 6- Maturation and Harvest
 
