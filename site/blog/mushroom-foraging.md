@@ -5,6 +5,8 @@ description:
     Introduction to mushroom foraging
 ---
 
+# Mushroom foraging
+
 It will be mushroom season again. Time to back in the forest and find little treasures lurking on the ground.
 So what do you have to prepare for a mushroom hunting session ? Well this activity is not really expensive all you will need is :
 - Good eyes 

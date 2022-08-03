@@ -30,7 +30,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <!-- <section>
       <div class="title-left">
         <h3>
           <strong>Discover species growth parameters</strong>
@@ -43,7 +43,7 @@
           </router-link>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 

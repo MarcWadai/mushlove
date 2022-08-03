@@ -24,7 +24,7 @@ export default {
 .card {
   min-width: 40px;
   max-width: 300px;
-  min-height: 80px;
+  min-height: 220px;
   padding: 14px;
   margin: 10px;
   // border: 1px inset $codeBgColor

@@ -5,6 +5,9 @@ description:
     Definition and the use for a mushroom cultivator
 ---
 
+# Biological Efficiency
+
+
 Biological effeiciency (BE) is a term commonly used in the mushroom space. It's main goal is to allow you to predict the quantity of mushroom you can produce with a specific substrate and how you could improve your substrate, process, fruiting conditions etc . It is calculated using the dry input weight of the substrate against the weigth of the mushroom you cultivate at the end with this substrate.
 
 >For exemple : 
